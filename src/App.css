@@ -1,38 +1,94 @@
-.App {
-  text-align: center;
+body {
+  font-family: 'Roboto', sans-serif ;
+  color: #3C4858;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+html, body {
+	height: 100%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.app-container {
+	max-width: 1540px;
+	margin: 0 auto;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+/* COLORS */
+
+:root {
+    --blue: #2684FF;
+    --indigo: #6e00ff;
+    --purple: #702c91;
+    --pink: #ec008c;
+    --red: #f71b13;
+    --orange: #FFAB00;
+    --yellow: #ffcc00;
+    --green: #00853C;
+    --teal: #02baf2;
+    --cyan: #4bd6e5;
+    --gray: #C0CCDA;
+    --pink-light: #ff20a4;
+	--pink-dark: #c60075;
+    --secondary: #702c91;
+    --success: #00853C;
+    --info: #02baf2;
+    --warning: #FFAB00;
+    --danger: #f71b13;
+    --light: #EFF2F7;
+    --dark: #273444;
+    --tertiary: #02baf2;
+    --semidark: #3C4858;
 }
 
-.App-link {
-  color: #61dafb;
+
+/* RESET CSS */
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+	color: inherit;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+ol, ul {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+	text-transform: none;
+}
+
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
 }

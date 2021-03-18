@@ -1,0 +1,91 @@
+.logo {
+    padding: 16px 0 10px 0;
+    border-bottom: 1px solid black;
+}
+
+.logo a img {
+    height: auto;
+    width: 220px;
+}
+
+.nav-menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-menu ul {
+    display: flex; 
+    margin-top: 10px;
+}
+
+.nav-menu ul li {
+    padding: 0 1.25rem 0 1.25rem;
+    font-size: 1.25rem;
+    font-weight: 400;
+}
+
+.nav-menu ul li a {
+    transition: all 200ms ease-in-out;
+}
+
+.nav-menu ul li a:hover {
+    color: var(--pink);
+}
+
+.iconDown {
+    transform: translateY(15%);
+}
+
+.hero-introduction {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.hero-info h1 span{
+    display: block;
+    font-weight: 400;
+    font-size: 3.5rem;
+    color: var(--semidark);
+    line-height: 1.3em;
+}
+
+.hero-info a {
+    padding: 0.75rem 1.75rem;
+    max-width: 200px;
+    background-color: var(--pink);
+    color: #fff;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: 0.25rem;
+    text-align: center;
+    margin: 24px 0 40px 0;
+    transition: all 200ms ease-in-out;
+}
+
+.hero-info a:hover {
+    background-color: var(--pink-dark);
+}
+
+.hero-info p {
+    color: var(--semidark);
+    font-size: 1.1rem;
+    line-height: 1.7rem;
+}
+
+.hero-img {
+    text-align: right;
+}
+
+.hero-img img{
+    box-sizing: border-box;
+    width: 80%;
+}
+
