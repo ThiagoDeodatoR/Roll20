@@ -27,6 +27,7 @@
 
 .nav-menu ul li a {
     transition: all 200ms ease-in-out;
+    color: inherit;
 }
 
 .nav-menu ul li a:hover {
@@ -57,23 +58,6 @@
     line-height: 1.3em;
 }
 
-.hero-info a {
-    padding: 0.75rem 1.75rem;
-    max-width: 200px;
-    background-color: var(--pink);
-    color: #fff;
-    font-size: 1rem;
-    line-height: 1.5;
-    border-radius: 0.25rem;
-    text-align: center;
-    margin: 24px 0 40px 0;
-    transition: all 200ms ease-in-out;
-}
-
-.hero-info a:hover {
-    background-color: var(--pink-dark);
-}
-
 .hero-info p {
     color: var(--semidark);
     font-size: 1.1rem;
@@ -86,5 +70,46 @@
 
 .hero-img img{
     width: 80%;
+}
+
+.getStarted-container {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--light);
+    padding: 7.5rem 0 6.5rem 0;
+}
+
+.getStarted-container::before {
+    content: '';
+    width: 100%;
+    height: 100vh;
+    z-index: -1;
+    background-color: var(--light);
+    position: absolute;
+}
+
+.get-started {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.get-started h1 {
+    font-weight: 400;
+    font-size: 2.5rem;
+    color: var(--semidark);
+    margin: 30px 0 50px 0;
+}
+
+.cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 30px;
 }
 

@@ -2,6 +2,9 @@ import React from 'react';
 import './styles.css'
 import { RiArrowDownSFill } from 'react-icons/ri';
 
+import Card from '../../components/Cards'
+import Button from '../../components/Button';
+
 const Main: React.FC = () => {
   return (
       <>
@@ -46,7 +49,8 @@ const Main: React.FC = () => {
               <span>Your Games.</span>
               <span>Your Table.</span>
             </h1>
-            <a href="/">Create Free Account</a>
+            {/* <a href="/">Create Free Account</a> */}
+            <Button/>
             <p>Play games anywhere. Share them with anyone. 
               With Roll20® as your virtual tabletop, 
               your adventures are limitless.
@@ -54,6 +58,34 @@ const Main: React.FC = () => {
           </section>
           <section className="hero-img">
             <img src="img/hero.png" alt="Hero"/>
+          </section>
+        </div>
+        <div className="getStarted-container">
+          <section className="get-started">
+            <h1>How To Get Started</h1>
+            <div className="cards-container">
+              <Card 
+                imgUrl="./img/icon-sign-up.png" 
+                HeaderT="Sign Up" 
+                info="Create your free account. Everything else is right in your browser - nothing to download or install."
+              />
+              <Card 
+                imgUrl="./img/icon-choose-game.png" 
+                HeaderT="Choose a Game" 
+                info="Build your own from scratch, buy a ready-to-play adventure in the Roll20® Marketplace, or join someone’s game."
+              />
+              <Card 
+                imgUrl="./img/icon-invite-friends.png" 
+                HeaderT="Invite Friends" 
+                info="Share a link with your existing group or find a new party with the Join a Game feature."
+              />
+              <Card 
+                imgUrl="./img/icon-play.png" 
+                HeaderT="Play" 
+                info="Start gaming! We’ve got you covered from basic rolls to advanced calculations, turn trackers to simple markers."
+              />
+            </div>
+            <Button/>
           </section>
         </div>
       </>
