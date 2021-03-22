@@ -1,9 +1,4 @@
 .card {
-    display: flex;
-    flex-basis: -moz-available;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     max-width: 250px;
     padding: 3rem;
     background-color: #fff;

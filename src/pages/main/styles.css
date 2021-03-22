@@ -109,7 +109,37 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    align-items: flex-start;
     gap: 30px;
+}
+
+.games-container {
+    margin: 70px 60px 0 60px;
+    text-align: center;
+}
+
+.games-container h2 {
+    font-weight: 400;
+    font-size: 1.75rem;
+}
+
+.games-container h6 {
+    text-transform: uppercase !important;
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+.games-section1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 50px 0 50px 0;
+}
+
+.games-section2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0 50px 0;
+    gap: 100px;
 }
 

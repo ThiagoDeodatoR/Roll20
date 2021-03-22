@@ -49,7 +49,6 @@ const Main: React.FC = () => {
               <span>Your Games.</span>
               <span>Your Table.</span>
             </h1>
-            {/* <a href="/">Create Free Account</a> */}
             <Button/>
             <p>Play games anywhere. Share them with anyone. 
               With Roll20® as your virtual tabletop, 
@@ -88,6 +87,40 @@ const Main: React.FC = () => {
             <Button/>
           </section>
         </div>
+        <section className="games-container">
+          <h2>Join 5 Million players and GMs playing hundreds of systems.</h2>
+          <div className="games-section1">
+            <a href="/">
+              <img src="./img/dungeons-dragons.png" alt="Dungeons and Dragons"/>
+            </a>
+            <a href="/">
+              <img src="./img/pathfinder2.png" alt="Pathfinder 2"/>
+            </a>
+            <a href="/">
+              <img src="./img/call-of-cthulhu.png" alt="Call of Cthulhu"/>
+            </a>
+            <a href="/">
+              <img src="./img/fate.png" alt="Fate"/>
+            </a>
+            <a href="/">
+              <img src="./img/burn-bryte.png" alt="Burn Bryte"/>
+            </a>
+          </div>
+          <div className="games-section2">
+          <a href="/">
+            <img src="./img/kids-on-bikes.png" alt="Kids on Bikes"/>
+          </a><a href="/">
+            <img src="./img/13-age.png" alt="The age 13"/>
+          </a><a href="/">
+            <img src="./img/fiasco.png" alt="Fiasco"/>
+          </a><a href="/">
+            <img src="./img/cypher-system.png" alt="Cypher System"/>
+          </a><a href="/">
+            <img src="./img/dungeon-world.png" alt="Dungeon World"/>
+          </a>
+          </div>
+          <h6>And Many More Games</h6>
+        </section>
       </>
   );
 }
