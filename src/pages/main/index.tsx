@@ -1,6 +1,7 @@
 import React from 'react';
 import './styles.css'
-import { RiArrowDownSFill } from 'react-icons/ri';
+import { RiArrowDownSFill, RiFilePaper2Line, RiCodeSSlashLine } from 'react-icons/ri';
+import { FaPaintBrush } from 'react-icons/fa';
 
 import Card from '../../components/Cards'
 import Button from '../../components/Button';
@@ -120,6 +121,51 @@ const Main: React.FC = () => {
           </a>
           </div>
           <h6>And Many More Games</h6>
+        </section>
+        <section className="customizable-container">
+          <h2>Customizable</h2>
+          <div className="customizable-section">
+            <div className="customizable-info">  
+              <div className="customizable-cards">
+                <div>
+                  <a href="/">
+                    <header>
+                      <FaPaintBrush className="card-icon" />
+                      <span>Artwork</span>
+                    </header>
+                    <p>Upload your own or choose from or Marketplace full of talented artists.</p>
+                  </a>
+                </div>
+                <div>
+                  <a href="/">
+                    <header>
+                      <RiFilePaper2Line className="card-icon" />
+                      <span>Character Sheets</span>
+                    </header> 
+                    <p>Hundreds of sheets to automatically track and calculate character information or build your own.</p>
+                  </a>
+                </div>
+                <div>
+                  <a href="/">
+                    <header>
+                      <RiCodeSSlashLine className="card-icon" />
+                      <span>Programming Scripts</span>
+                    </header>
+                    <p>Automate tedious game mechanics: get hundreds of options you can add with one click.</p>
+                  </a>
+                </div>
+                <span>
+                  <a href="/">
+                    <p>Create Free Account</p>
+                    <i></i>
+                  </a>
+                </span>
+              </div>
+            </div>
+            <div className="customizable-img">
+              <img src="./img/artwork.png" alt="ArtWork"/>
+            </div>
+          </div>
         </section>
       </>
   );
