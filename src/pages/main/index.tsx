@@ -1,7 +1,7 @@
 import React from 'react';
 import './styles.css'
 import { RiArrowDownSFill, RiFilePaper2Line, RiCodeSSlashLine } from 'react-icons/ri';
-import { FaPaintBrush } from 'react-icons/fa';
+import { FaPaintBrush, FaArrowRight } from 'react-icons/fa';
 
 import Card from '../../components/Cards'
 import Button from '../../components/Button';
@@ -154,10 +154,12 @@ const Main: React.FC = () => {
                     <p>Automate tedious game mechanics: get hundreds of options you can add with one click.</p>
                   </a>
                 </div>
-                <span>
+                <span className="span-register">
                   <a href="/">
-                    <p>Create Free Account</p>
-                    <i></i>
+                    <p>
+                      Create Free Account
+                      <FaArrowRight />
+                    </p>           
                   </a>
                 </span>
               </div>

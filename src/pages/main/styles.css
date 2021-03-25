@@ -144,7 +144,7 @@
 }
 
 .customizable-container {
-    margin-top: 120px;
+    margin-top: 170px;
 }
 
 .customizable-container h2{
@@ -178,10 +178,18 @@
     margin-right: 15px;
     transform: translateY(30%);
 }
-/* PROBLEMAS EM COLOCAR A COR SOMENTE NO PRIMEIRO HEADER
-.customizable-cards div a header:nth-of-type(1) {
+
+.customizable-cards div a header {
+    transition: all 200ms ease-in-out;
+}
+
+.customizable-cards div:first-child a header {
     color: var(--pink);
-}*/
+}
+
+.customizable-cards div:hover a header{
+    color: var(--pink);
+}
 
 .customizable-cards div a header span {
     font-weight: 600 !important;
@@ -189,7 +197,7 @@
 
 .customizable-cards div {
     padding: 1.5rem 1rem;
-    max-width: 400px;
+    max-width: 320px;
     background-color: #FFF;
     background-clip: border-box;
     border: 1px solid #EFF2F7;
@@ -197,5 +205,33 @@
     box-shadow: 0 0.75rem 1.5rem rgba(18, 38, 63, 0.03);
 }
 
+.customizable-cards div a p {
+    font-weight: 400;
+    font-size: 80%;
+    line-height: 1.5rem;
+}
 
+.span-register {
+    width: 350px;
+    margin: 0 auto;
+    color: var(--pink);
+    transition: all 200ms ease-in-out;
+}
+
+.span-register a p {
+    font-weight: 400;
+}
+
+.span-register:hover {
+    color: var(--pink-dark);
+}
+
+.span-register a svg {
+    margin-left: 20px;
+}
+
+.customizable-img {
+    padding-right: 70px;
+    margin-top: -5%;
+}
 
