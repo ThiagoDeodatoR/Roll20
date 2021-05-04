@@ -235,3 +235,61 @@
     margin-top: -5%;
 }
 
+.community-container {
+    display: flex;
+    margin-top: 160px;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+}
+
+/* ERRO NA URL MESMO A IMAGEM ESTANDO NA PASTA PUBLIC
+
+.community-container img::before {
+    content: "";
+    background-image: url("./img/world-map.png");
+    background-image: url("localhost:3000/img/world-map.png");
+}*/
+
+.community-backgroundImg {
+    max-width: 750px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 10%;
+    z-index: -1;
+}
+
+.community-info {
+    max-width: 700px;
+}
+
+.community-info h2 {
+    font-size: 3.5rem;
+    font-weight: 400;
+    line-height: 1.3;
+    margin-bottom: 20px;
+}
+
+.community-info p {
+    line-height: 1.7;
+    margin-bottom: 60px;
+}
+.community-info span {
+    color: var(--pink);
+    transition: all 200ms ease-in-out;
+}
+
+.community-info span a svg {
+    margin-left: 20px;
+    transform: translateY(10%);
+}
+
+
+.community-info span p {
+    font-weight: 400;
+}
+
+.community-info span:hover {
+    color: var(--pink-dark);
+}

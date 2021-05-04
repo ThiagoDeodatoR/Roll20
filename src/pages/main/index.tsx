@@ -169,6 +169,28 @@ const Main: React.FC = () => {
             </div>
           </div>
         </section>
+        <section className="community-container">
+          <div>
+            <img src="./img/community-faces.png" alt="Community"/>
+            <img src="./img/world-map.png" className="community-backgroundImg" alt=""/>
+          </div>
+          <div className="community-info">
+            <h2>Community</h2>
+            <p>Find people to round out your party, or start with a fresh pack of players. 
+              You can even find a game starting right away. All possible because of our huge and amazing community. 
+              Once you find them, it’s easy to play and connect with built-in video and voice chat, 
+              text chat, and integrated rolling.
+            </p>
+            <span>
+              <a href="/">
+                <p>
+                  Create Free Account
+                  <FaArrowRight />
+                </p>           
+              </a>
+            </span>
+          </div>
+        </section>
       </>
   );
 }
