@@ -1,7 +1,8 @@
 import React from 'react';
 import './styles.css'
 import { RiArrowDownSFill, RiFilePaper2Line, RiCodeSSlashLine } from 'react-icons/ri';
-import { FaPaintBrush, FaArrowRight } from 'react-icons/fa';
+import { FaPaintBrush, FaArrowRight, FaDiceD20 } from 'react-icons/fa';
+import { HiOutlineLightBulb, HiVolumeUp } from 'react-icons/hi';
 
 import Card from '../../components/Cards'
 import Button from '../../components/Button';
@@ -189,6 +190,50 @@ const Main: React.FC = () => {
                 </p>           
               </a>
             </span>
+          </div>
+        </section>
+        <section className="alwaysEvolving">
+          <div className="alwaysEvolving-header">
+            <h2>Always Evolving</h2>
+            <p>It's faster, better, and easier to play on Roll20<sup>®</sup>. It’s also always improving. 
+              From the best Dice Engine on the internet to immersive features like Dynamic Lighting, 
+              Roll20<sup>®</sup> will make your game nights better than you could have imagined possible.
+            </p>
+            <span className="span-register">
+              <a href="/">
+                <p>
+                  Create Free Account
+                  <FaArrowRight />
+                </p>           
+              </a>
+            </span>
+          </div>
+          <div className="alwaysEvolving-cards-container">
+            <div className="alwaysEvolving-cards">
+              <div>
+                <FaPaintBrush />
+                <p>{"Drag & Drop Monsters, Characters, & NPCs"} </p>
+              </div>
+              <div>
+                <HiOutlineLightBulb />
+                <p>Dynamic Lighting</p>
+              </div>
+            </div>
+            <img src="./img/software-info.png" alt=""/>
+            <div className="alwaysEvolving-cards">
+              <div>
+                <FaDiceD20 />
+                <p>Click-to-Roll Dice </p>
+              </div>
+              <div>
+                <HiVolumeUp />
+                <p>{"Video & Voice Chat"}</p>
+              </div>
+              <div>
+                <RiFilePaper2Line />
+                <p>Interactive Character Sheets </p>
+              </div>
+            </div>
           </div>
         </section>
       </>

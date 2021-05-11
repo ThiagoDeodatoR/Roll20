@@ -293,3 +293,71 @@
 .community-info span:hover {
     color: var(--pink-dark);
 }
+
+.alwaysEvolving {
+    margin-top: 200px;
+}
+
+.alwaysEvolving-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.alwaysEvolving-header h2 {
+    font-size: 2.5rem;
+    font-weight: 400;
+}
+
+.alwaysEvolving-header p {
+    margin-top: 20px;
+    line-height: 1.7;
+    text-align: center;
+    max-width: 1000px;
+}
+
+.alwaysEvolving-header span {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.alwaysEvolving-cards-container {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    max-width: 1000px;
+}
+
+.alwaysEvolving-cards:first-of-type {
+    margin: 40px -15px 0 -15px;
+}
+
+.alwaysEvolving-cards:last-of-type {
+    margin: -5px -15px 0 -15px;
+}
+
+.alwaysEvolving-cards {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.alwaysEvolving-cards div {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    max-width: 250px;
+    word-wrap: break-word;
+    border: 1px solid #ededed;
+    box-shadow: 0 0.75rem 1.5rem rgba(18, 38, 63, 0.03);
+}
+
+.alwaysEvolving-cards div svg {
+    font-size: 40px;
+}
+
+.alwaysEvolving-cards div p {
+    line-height: 1.3;
+    font-weight: 400;
+    margin-left: 20px;
+}
