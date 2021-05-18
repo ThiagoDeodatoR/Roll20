@@ -236,6 +236,71 @@ const Main: React.FC = () => {
             </div>
           </div>
         </section>
+        <section className="latest-news">
+          <div>
+            <span>Blog</span>
+            <h1>Latest News</h1>  
+          </div>
+          <div className="latest-cards">
+            <div>
+              <a href="/">
+                <img src="./img/motw_socials-blog.png" alt="Monsters in Town" />
+                <h2>Stir Friday Night Returns with Monsters in Tow!</h2>
+              </a>
+              <span>Mar 19, 2021</span>
+              <p>The improv-comedy group Stir Friday Night is back with a brand new campaign! Next week, GM Masood Ha...</p>
+              <a href="/">Read More</a>
+            </div>
+            <div>
+              <a href="/">
+                <img src="./img/roll20_blm_update-q1-21-blog.png" alt="Black Lives Matter Update" />
+                <h2>BLM Update: Q1 2021</h2>
+              </a>
+              <span>Mar 18, 2021 </span>
+              <p>Eight months ago, Roll20 made a commitment to put action behind our statement that Black Lives Matte...</p>
+              <a href="/">Read More</a>
+            </div>
+            <div>
+              <a href="/">
+                <img src="./img/ir-genf-ct-blog.png" alt="Generation Fantasy" />
+                <h2>Indoor Recess Returns For #GenerationFantasy</h2>
+              </a>
+              <span>Mar 12, 2021</span>
+              <p>The Indoor Recess Crew is filled with the some of the best troublemakers in TTRPGs, their credits in...</p>
+              <a href="/">Read More</a>
+            </div>
+          </div>
+        </section>
+        <section className="signUp">
+          <div>
+            <span>Sign Up</span>
+            <h1>Play on Roll20<sup>®</sup> for Free</h1>
+          </div>
+          <form action="">
+            <div className="form-container">
+              <div>
+                <label htmlFor="Fname">First Name</label>
+                <input type="text" id="Fname" placeholder="First Name"/>
+              </div>
+              <div>
+                <label htmlFor="Lname">Last Name</label>
+                <input type="text" id="Lname" placeholder="Last Name"/>
+              </div>
+              <div>
+                <label htmlFor="email">Email</label>
+                <input type="email" id="email" placeholder="example@roll20.com"/>
+              </div>
+              <div>
+                <label htmlFor="password">Password</label>
+                <input type="password" id="password" />
+              </div>
+            </div>
+            <Button />
+            <span>Already have an account?
+              <a href="/"> Login.</a>
+            </span>
+          </form>
+        </section>
       </>
   );
 }
