@@ -1,7 +1,7 @@
 import React from 'react';
 import './styles.css'
-import { RiArrowDownSFill, RiFilePaper2Line, RiCodeSSlashLine } from 'react-icons/ri';
-import { FaPaintBrush, FaArrowRight, FaDiceD20 } from 'react-icons/fa';
+import { RiArrowDownSFill, RiFilePaper2Line, RiCodeSSlashLine, RiAppleFill } from 'react-icons/ri';
+import { FaPaintBrush, FaArrowRight, FaDiceD20, FaFacebookF, FaTwitter, FaYoutube, FaTwitch, FaInstagram, FaLinkedinIn, FaGooglePlay } from 'react-icons/fa';
 import { HiOutlineLightBulb, HiVolumeUp } from 'react-icons/hi';
 
 import Card from '../../components/Cards'
@@ -53,7 +53,7 @@ const Main: React.FC = () => {
             </h1>
             <Button/>
             <p>Play games anywhere. Share them with anyone. 
-              With Roll20® as your virtual tabletop, 
+              With Roll20<sup>®</sup> as your virtual tabletop, 
               your adventures are limitless.
             </p>
           </section>
@@ -301,6 +301,67 @@ const Main: React.FC = () => {
             </span>
           </form>
         </section>
+        <footer>
+          <div className="footer-info">
+            <img src="./img/roll20-logo.png" alt="" />
+            <p>The Roll20 team is dedicated to enabling gamers to unite across any distance via our easy-to-use gaming tools. 
+              This means we strive to lessen the technical burden on the participants, facilitate the formation of new gaming groups, 
+              and to make barriers to entry as few as possible when gathering around a table for camaraderie. 
+              To accomplish these goals we seek to create a service that is sustainable and will be a resource 
+              to the gaming community as long as it is needed.
+            </p>
+          </div>
+          <div className="navAndContact-container">
+            <div>
+              <nav className="social-media">
+                <ul>
+                  <li>
+                    <a href="/"><FaFacebookF /></a>
+                  </li>
+                  <li>
+                    <a href="/"><FaTwitter /></a>
+                  </li>
+                  <li>
+                    <a href="/"><FaYoutube /></a>
+                  </li>
+                  <li>
+                    <a href="/"><FaTwitch /></a>
+                  </li>
+                  <li>
+                    <a href="/"><FaInstagram /></a>
+                  </li>
+                  <li>
+                    <a href="/"><FaLinkedinIn /></a>
+                  </li>
+                </ul>
+              </nav>
+              <span>
+                <p>© 2021 The Orr Group, LLC. All rights reserved. Terms of Use | Privacy Policy | DMCA</p>
+                <p>Roll20® is a Registered Trademark of The Orr Group, LLC. All rights reserved. </p>
+              </span>
+            </div>
+            <div>
+              <div className="App-download">
+                <a href="/">
+                  <RiAppleFill/> 
+                  <p>
+                    Download on the <br/><strong>App Store</strong>
+                  </p>
+                </a>
+                <a href="/">
+                  <FaGooglePlay/> 
+                  <p>
+                    Get it on <br/><strong>Google Play</strong>
+                  </p>
+                </a>
+              </div>
+              <nav className="footer-contact">
+                <a href="/">Support</a>
+                <a href="/">Contact Us</a>
+              </nav>
+            </div>
+          </div>
+        </footer>
       </>
   );
 }
